@@ -21,10 +21,10 @@ Welcome to the Expenzza V2 API documentation! Expenzza is a simple expense track
 
 2. Create a .env file in the project root and add variables:
 
-      - MONGO URI \<**Required**\>. _Set to your mongoDb connection string. To learn how to get a mongodb connection string, please visit the [MongoDB Docs](https://www.mongodb.com/docs/guides/atlas/connection-string/)_.
+      - MONGO_URL \<**Required**\>. _Set to your mongoDb connection string. To learn how to get a mongodb connection string, please visit the [MongoDB Docs](https://www.mongodb.com/docs/guides/atlas/connection-string/)_.
 
-      - PRIVATE KEY \<**Required**\>. _Set to your-256-bit-secret for signing JWT token._
-      - MONGO DBNAME \<**Required**\>. _Set to any name of choice for your database._
+      - PRIVATE_KEY \<**Required**\>. _Set to your-256-bit-secret for signing JWT token._
+      - MONGO_DBNAME \<**Required**\>. _Set to any name of choice for your database._
       - CLOUDINARY_API_SECRET \<**Required**\>. _Set to your cloudinary api secret._
       - CLOUDINARY_API_KEY \<**Required**\>. _Set to your cloudinary api key_.
       - CLOUDINARY_CLOUD_NAME \<**Required**\>. _Set to your cloudinary cloud name_.
